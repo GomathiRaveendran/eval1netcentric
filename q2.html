@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q2-EVAL-1</title>
+</head>
+<body>
+    <h1><b>Recommendation</b></h1>
+    
+    <form name="application">  
+        
+        <label> Applicant </label>         
+        <input type="text" name="applicant" id="applicant" size="15" placeholder="Gomathi Raveendran"/> <br> <br>  
+        <label> Applying to </label>     
+        <input type="text" name="university" size="15" placeholder="Stony Brook University Office of Graduate and Health Sciences Admissions"/> <br> <br>  
+        <label> Recommender: </label>         
+        <input type="text" name="Recommender" size="15" placeholder="Senthilkumar T" /> <br> <br>  
+          
+ 
+
+        <h2><span style="color:maroon;">Applicant Information</span></h2> 
+        <h5>Applicant Name: ABC</h5>
+        
+        <label>Do you wish to waive your right to examine this letter of recommendation?
+        </label>
+        <br>
+        <input type="radio" id="waive" name="waive" value="yes" checked/> I waive my right to access this report. <br>
+        <input type="radio" id="waive" name="waive" value="no" /> I do not waive m right to access this report. <br>
+        
+        <p>Signed by: ABC</p>
+
+        <h2><span style="color:maroon;">Recommender Information</span></h2> 
+
+        <label>Prefix: </label>
+        <select>  
+        <option value="Dr.">Dr.</option>  
+        <option value="Prof.">Prof.</option>  
+        <option value="Mr.">Mr.</option>  
+        <option value="Ms.">Ms.</option>  
+        <option value="Mrs.">Mrs.</option>  
+  
+        </select>  
+  
+        <br>  
+        <label>   
+        First Name :  
+        </label><br>  
+        <input type="text" name="firstname" size="15" placeholder="Senthilkumar"/> <br> 
+        
+        <label>   
+        Last Name :  
+        </label><br>  
+        <input type="text" name="lastname" size="15" placeholder="T"/> <br>
+        
+        <label>   
+        Organization:  
+        </label><br>  
+        <input type="text" name="Organization" size="15" placeholder="Amrita Viswa Vidhyapeetham"/> <br>
+        
+        <label>   
+        Title :  
+        </label><br>  
+        <input type="text" name="title" size="15" placeholder="Associate Professor"/> <br>
+        
+        <label>   
+        Relationship to student :  
+        </label><br>  
+        <input type="text" name="relation" size="15" placeholder="Associate Professor"/> <br> 
+
+        <label>   
+        Telephone :  
+        </label>  
+        <input type="text" name="country code"  value="+91" size="2"/>   
+        <input type="text" name="phone" size="10"/> <br> <br>  
+        
+        Email:  
+        <input type="email" id="email" name="email" required/> <br>    
+        <br> <br>  
+        <h2><span style="color:maroon;">Applicant Information</span></h2> 
+
+        <table style="width:100%">
+            <tr>
+                <td></td>
+              <td>Upper 1 to 2%</td>
+              <td>Upper 10%</td>
+              <td>Upper 25%</td>
+              <td>Upper 50%</td>
+              <td>Lower Half</td>
+              <td>No Basis for Judgement</td>
+            </tr>
+            <tr>
+              <td>Academic Performance</td>
+              <td>         
+                <input type="radio" id="acad" name="academic" value="1" checked/><br>
+              </td>
+              
+              <td>         
+                <input type="radio" id="acad" name="academic" value="2"/><br>
+              </td>
+
+              <td>         
+                <input type="radio" id="acad" name="academic" value="3"/><br>
+              </td>
+
+              <td>         
+                <input type="radio" id="acad" name="academic" value="4"/><br>
+              </td>
+
+              <td>         
+                <input type="radio" id="acad" name="academic" value="5"/><br>
+              </td>
+
+              <td>         
+                <input type="radio" id="acad" name="academic" value="6"/><br>
+              </td>
+
+            </tr>
+            <tr>
+                <td>Intellectual Ability</td>
+                <td>         
+                  <input type="radio" id="intell" name="intell" value="1"/><br>
+                </td>
+                
+                <td>         
+                  <input type="radio" id="intell" name="intell" value="2" checked/><br>
+                </td>
+  
+                <td>         
+                  <input type="radio" id="intell" name="intell" value="3"/><br>
+                </td>
+  
+                <td>         
+                  <input type="radio" id="intell" name="intell" value="4"/><br>
+                </td>
+  
+                <td>         
+                  <input type="radio" id="intell" name="intell" value="5"/><br>
+                </td>
+  
+                <td>         
+                  <input type="radio" id="intell" name="intell" value="6"/><br>
+                </td>
+  
+              </tr>
+              <tr>
+                <td>Ability to Express Him/Herself</td>
+                <td>         
+                  <input type="radio" id="express" name="express" value="1" checked/><br>
+                </td>
+                
+                <td>         
+                  <input type="radio" id="express" name="express" value="2"/><br>
+                </td>
+  
+                <td>         
+                  <input type="radio" id="express" name="express" value="3"/><br>
+                </td>
+  
+                <td>         
+                  <input type="radio" id="express" name="express" value="4"/><br>
+                </td>
+  
+                <td>         
+                  <input type="radio" id="express" name="express" value="5"/><br>
+                </td>
+  
+                <td>         
+                  <input type="radio" id="express" name="express" value="6"/><br>
+                </td>
+  
+              </tr>
+
+              <tr>
+                <td>Motivation for Proposed Field of Study</td>
+                <td>         
+                  <input type="radio" id="motivation" name="motivation" value="1" checked/><br>
+                </td>
+                
+                <td>         
+                  <input type="radio" id="motivation" name="motivation" value="2"/><br>
+                </td>
+  
+                <td>         
+                  <input type="radio" id="motivation" name="motivation" value="3"/><br>
+                </td>
+  
+                <td>         
+                  <input type="radio" id="motivation" name="motivation" value="4"/><br>
+                </td>
+  
+                <td>         
+                  <input type="radio" id="motivation" name="motivation" value="5"/><br>
+                </td>
+  
+                <td>         
+                  <input type="radio" id="motivation" name="motivation" value="6"/><br>
+                </td>
+  
+              </tr>
+          </table>
+    <br>
+    <br>
+    <br>
+        <label> Would you admit the applicant in your department?
+        </label>
+        <br>
+
+        <input type="radio" name="admit" value="1" /> Assuredly <br>
+        <input type="radio" name="admit" value="2" /> Probably <br>
+        <input type="radio" name="admit" value="3" /> Possibly <br>
+        <input type="radio" name="admit" value="4" /> No <br>
+        
+    <br><br>
+    <h2><span style="color:maroon;">Submission</span></h2> 
+        
+    <label><p>Access to recommendation is restricted to admitted students, and only after enrollment in this application's academic program. In place of your signature, please type your full legal name</p>
+    </label>
+    <input type="text" name="signature"/>
+    <br>
+    <br>
+    <br>
+    <button onclick="emailvalid()">Submit</button> <button>Save For Later</button> <br><br><div onclick="display()">Display</div>
+    <div id="Display"></div>
+    <script>
+        function emailvalid()
+{
+ if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(application.email.value))
+  {
+    return (true)
+  }
+    alert("You have entered an invalid email address!")
+    return (false)
+}
+function display(){
+    x = "Applicant Name: " + document.getElementById("applicant").value() + "<br> " + "University: " + Document.getElementById("");
+    document.getElementById("Display").innerHTML = x;
+
+}
+
+    </script>
+</body>
+</html>
+
+
+
+
+

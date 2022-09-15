@@ -1,0 +1,68 @@
+.flex, .banner, .main, .highlights, .classrooms, .syllabus,.hours{
+    border: solid;
+    border-radius: 25px;
+    border-color: rgba(0, 0, 0, 0.377);
+    padding-top: 3%;
+    padding-bottom: 3%;
+    text-align: center;
+    margin: 2%;
+    font-size: 1.5rem;
+}
+
+.classrooms, .syllabus, .hours{
+    height: 50%;
+    padding-top: 6%;
+    padding-bottom: 6%;
+}
+.flex {
+    display: flex;
+  }
+.banner{
+    background-color: rgba(137, 43, 226, 0.377);
+    width: 90%;
+}
+.main{
+    display: flex;
+    width:90%;
+}
+.highlights{
+    background-color: rgba(226, 86, 43, 0.377);
+    width:90%
+}
+
+.classrooms{
+    background-image: linear-gradient(to right,rgba(137, 43, 226, 0.377), rgba(226, 43, 165, 0.377));
+    visibility: visible;
+    /* display: flex; */
+    width: 20%;
+}
+.syllabus{
+    background-image: linear-gradient(to right,rgba(226, 43, 165, 0.377) , rgba(226, 43, 119, 0.377));
+    /* display: flex; */
+    width:50%;
+}
+.hours{
+    background-image: linear-gradient(to right,rgba(226, 43, 119, 0.377), rgba(226, 86, 43, 0.377));
+    /* display: flex; */
+    width: 20%;
+}
+
+.button{
+   margin-left: 45%;
+    
+}
+
+@media only screen and (max-width: 600px){
+    .classrooms{
+        display:none;
+    }
+    .syllabus, .hours{
+        width: 95%;
+        padding: 10% 0 10% 0;
+        display: block;
+    }
+    .main{
+        display: block;
+    }
+
+}
